@@ -1,6 +1,5 @@
-def main():
-    print("Hello from mcp-server-proto-python!")
+from server import mcp
 
-
+# Entry point to run the server
 if __name__ == "__main__":
-    main()
+    mcp.run()
